@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="title" content="Formulaire">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__logo">
+        <h1>TODO LIST</h1>
+    </div>
+    <div>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </div>
+</header>
+<div id="app">
+    <form>
+        <label for="titre">name of task</label>
+        <input type="text" name="titre" />
+        <label for="description">Description de la tâche</label>
+        <input type="text" name="description" />
+        <select name="status">
+            <option value="">--Please choose an option--</option>
+            <option value="1">Non débuté</option>
+            <option value="2">En cours</option>
+            <option value="3">Fini</option>
+
+        </select>
+        <input type="submit" value="Envoyer" />
+    </form>
+</div>
+
+</body>
+<footer>
+
+</footer>
+<script src="./script/push.js"></script>
+</html>
